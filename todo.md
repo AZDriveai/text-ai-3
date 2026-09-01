@@ -301,9 +301,10 @@
 
 ## Thirty-tool and provider-discovery pass
 
-- [ ] Add the thirty-tool catalog from the attached brief with provider-key requirements, capability states, and honest availability labels.
-- [ ] Discover provider-accessible model IDs from the server using OPENAI_API_KEY, OPENROUTER_API_KEY, and HF_TOKEN without exposing secrets to the client.
-- [ ] Replace hardcoded model choices with discovered models plus safe fallbacks and preserve provider switching.
-- [ ] Correct UI interaction semantics and verify all forms, buttons, panels, and responsive layout states.
-- [ ] Add regression coverage for Hugging Face key aliases, model discovery, tool catalog integrity, and model selection fallback.
-- [ ] Run typecheck, automated tests, production build, and runtime/browser smoke verification.
+- [x] Add the thirty-tool catalog from the attached brief with provider-key requirements, capability states, and honest availability labels.
+- [x] Discover provider-accessible model IDs from the server using OPENAI_API_KEY, OPENROUTER_API_KEY, and HF_TOKEN without exposing secrets to the client.
+- [x] Replace hardcoded model choices with discovered models plus safe fallbacks and preserve provider switching.
+- [x] Correct UI interaction semantics and verify all forms, buttons, panels, and responsive layout states.
+- [x] Add regression coverage for Hugging Face key aliases, model discovery, tool catalog integrity, and model selection fallback.
+- [x] Run typecheck, automated tests, production build, and runtime/browser smoke verification.
+- [x] Create a new private GitHub repository and push the verified project to its main branch.
