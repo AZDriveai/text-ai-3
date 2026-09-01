@@ -5,6 +5,10 @@ ENV PATH=$PNPM_HOME:$PATH
 ENV NODE_ENV=production
 ENV PORT=7860
 
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends git ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
 RUN npm install --global pnpm@10.4.1
 
 WORKDIR /app
