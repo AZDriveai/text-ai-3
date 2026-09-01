@@ -5,7 +5,7 @@ ENV PATH=$PNPM_HOME:$PATH
 ENV NODE_ENV=production
 ENV PORT=7860
 
-RUN corepack enable && corepack prepare pnpm@10.4.1 --activate
+RUN npm install --global pnpm@10.4.1
 
 WORKDIR /app
 
