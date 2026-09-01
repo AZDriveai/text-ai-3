@@ -22,4 +22,4 @@ RUN pnpm build
 
 EXPOSE 7860
 
-CMD ["pnpm", "start"]
+CMD ["node", "dist/index.js"]
